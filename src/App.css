@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background-color: #ccc;
+  background: linear-gradient(pink,rgb(100, 98, 98));
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  display: block;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
